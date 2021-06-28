@@ -20,7 +20,7 @@ const Testimonials = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "testimonials" } } }) {
+      allMarkdownRemark(filter: { frontmatter: { category: { eq: "testimonials" }}},  sort: {fields: frontmatter___title, order: ASC}) {
         edges {
           node {
             id
