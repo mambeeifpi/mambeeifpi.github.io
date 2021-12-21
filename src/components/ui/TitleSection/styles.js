@@ -6,12 +6,12 @@ export const TitleSection = styled.div`
 `;
 
 export const Title = styled.h2`
-  ${tw`uppercase mb-4 text-lg font-bold w-full text-left`};
+  ${tw`uppercase mb-4 text-xl font-bold w-full text-left`};
   ${({ center }) => center && tw`text-center`};
 `;
 
 export const SubTitle = styled.h4`
-  ${tw`text-xs text-pink-700 w-full text-left`};
+  ${tw`text-base text-pink-700 w-full text-left`};
   ${({ center }) => center && tw`text-center`};
 `;
 

@@ -4,6 +4,7 @@ import tw from 'tailwind.macro';
 export default createGlobalStyle`
   body {
     ${tw`m-0 text-indigo-900 bg-white`};
+    font-size: 18px;
   }
 
   a {
@@ -12,5 +13,13 @@ export default createGlobalStyle`
 
   p + p {
     ${tw`mt-3`};
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul {
+    list-style: circle;
   }
 `;

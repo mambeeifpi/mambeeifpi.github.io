@@ -11,9 +11,11 @@ export const Text = styled.h1`
 `;
 
 export const Image = styled.figure`
-  ${tw`w-16 h-16 mr-3 border border-blueGray-200 rounded-full`};
+  ${tw`w-16 h-16 mr-3`};
 
   img {
-    ${tw`border-4 border-white rounded-full`};
+    width: auto !important;
+    height: auto !important;
+    object-fit: fill !important;
   }
 `;
